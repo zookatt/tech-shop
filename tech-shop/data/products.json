@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Antivirus",
+      "price": 33,
+      "currency": "EUR",
+      "stockStatus": "in",
+      "stockText": "En stock",
+      "image": "img/productos/antivirus.jpg",
+      "alt": "Caja de software antivirus para ordenador"
+    },
+    {
+      "id": 2,
+      "name": "Gráfica",
+      "price": 169,
+      "currency": "EUR",
+      "stockStatus": "low",
+      "stockText": "Pocas unidades",
+      "image": "img/productos/grafica.jpg",
+      "alt": "Tarjeta gráfica para ordenador de sobremesa"
+    },
+    {
+      "id": 3,
+      "name": "Disco duro",
+      "price": 36,
+      "currency": "EUR",
+      "stockStatus": "in",
+      "stockText": "En stock",
+      "image": "img/productos/disco.jpg",
+      "alt": "Disco duro interno para ordenador"
+    },
+    {
+      "id": 4,
+      "name": "Ordenador",
+      "price": 360,
+      "currency": "EUR",
+      "stockStatus": "in",
+      "stockText": "En stock",
+      "image": "img/productos/ordenador.jpg",
+      "alt": "Ordenador de sobremesa completo"
+    },
+    {
+      "id": 5,
+      "name": "Bolso portátil",
+      "price": 11,
+      "currency": "EUR",
+      "stockStatus": "in",
+      "stockText": "En stock",
+      "image": "img/productos/bolso.jpg",
+      "alt": "Bolso para transportar ordenador portátil"
+    },
+    {
+      "id": 6,
+      "name": "Portátil",
+      "price": 540,
+      "currency": "EUR",
+      "stockStatus": "in",
+      "stockText": "En stock",
+      "image": "img/productos/portatil.jpg",
+      "alt": "Ordenador portátil abierto sobre una mesa"
+    },
+    {
+      "id": 7,
+      "name": "Memoria RAM",
+      "price": 21,
+      "currency": "EUR",
+      "stockStatus": "in",
+      "stockText": "En stock",
+      "image": "img/productos/ram.jpg",
+      "alt": "Módulos de memoria RAM para ordenador"
+    },
+    {
+      "id": 8,
+      "name": "Router",
+      "price": 66,
+      "currency": "EUR",
+      "stockStatus": "low",
+      "stockText": "Pocas unidades",
+      "image": "img/productos/router.jpg",
+      "alt": "Router wifi para red doméstica"
+    },
+    {
+      "id": 9,
+      "name": "Sintonizadora TV",
+      "price": 25,
+      "currency": "EUR",
+      "stockStatus": "low",
+      "stockText": "Pocas unidades",
+      "image": "img/productos/tv.jpg",
+      "alt": "Tarjeta sintonizadora de televisión para ordenador"
+    }
+  ]
+}
