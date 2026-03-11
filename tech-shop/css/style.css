@@ -423,3 +423,40 @@ p span {
   color: var(--color-text-muted);
   cursor: not-allowed;
 }
+
+/* TABLE */
+
+/* THEAD */
+.cart-thead th {
+  background-color: var(--color-bg);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+}
+
+/* TBODY */
+.cart-tbody th,
+.cart-tbody td {
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-2) var(--space-2);
+  text-align: left;
+}
+
+/* TFOOT */
+.cart-tfoot th,
+.cart-tfoot td {
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  padding: var(--space-2) var(--space-2);
+  text-align: left;
+  border: none;
+}
