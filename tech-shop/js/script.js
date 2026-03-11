@@ -7,6 +7,13 @@ const showData = (data) => {
   console.log(data);
   let card = "";
   for (let i = 0; i < data.products.length; i++) {
+    const badgeClass =
+      data.products[i].stockStatus === "in"
+        ? "badge-in"
+        : data.products[i].stockStatus === "low"
+          ? "badge-low"
+          : "badge-out";
+
     card += `<article class="product-card">
             <figure>
               <img
@@ -19,10 +26,10 @@ const showData = (data) => {
             <p class="price">${data.products[i].price} €</p>
 
             <p>
-              <span class="badge badge-in">${data.products[i].stockText}</span>
+              <span class="badge ${badgeClass}">${data.products[i].stockText}</span>
             </p>
 
-            <button>Añadir al carrito</button>
+            <button class ="addToCart">Añadir al carrito</button>
           </article>
 `;
   }
