@@ -308,6 +308,8 @@ h3 {
 h1 {
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
+  text-align: center;
+  margin: var(--space-2);
 }
 
 h2 {
@@ -321,6 +323,9 @@ h3 {
   margin: 0 var(--space-2);
 }
 
+header p {
+  margin: var(--space-2);
+}
 /*  LINKS  */
 
 a {
@@ -358,9 +363,25 @@ a:hover {
   gap: var(--space-1);
   background-color: var(--color-surface);
   padding: var(--space-2);
-  border-radius: 12px;
+  border-radius: 0;
+  box-shadow: var(--shadow-sm);
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
+/* IMAGE */
+.product-card figure {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 /*  PRODUCT TEXT*/
 .price {
   margin: 0 var(--space-2);
@@ -399,7 +420,7 @@ p span {
 .addToCart {
   background-color: var(--color-primary);
   color: var(--color-surface);
-  padding: var(--space-2) var(--space-3);
+  padding: var(--space-2) var(--space-2);
   border-radius: var(--radius-sm);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-semibold);
