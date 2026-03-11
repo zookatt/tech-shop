@@ -35,4 +35,18 @@ const showData = (data) => {
   }
   let container = document.querySelector("#product-grid");
   container.innerHTML = card;
+
+  let cartCount = 0;
+
+  const buttons = document.querySelectorAll(".addToCart");
+  const counter = document.querySelector("#cart-count");
+  counter.style.display = "none";
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      cartCount++;
+      counter.textContent = cartCount;
+      counter.style.display = "flex";
+    });
+  });
 };

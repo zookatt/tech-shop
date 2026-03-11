@@ -344,6 +344,33 @@ a:hover {
   outline-offset: 2px;
 }
 
+/*  CART ITEM COUNTER  */
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-count {
+  position: absolute;
+  top: 7px;
+  right: 4px;
+
+  background: var(--color-badge-out);
+  color: white;
+
+  font-size: 12px;
+  font-weight: bold;
+
+  width: 17px;
+  height: 17px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*  PRODUCT CATEGORY */
 
 /*  PRODUCT GRID */
