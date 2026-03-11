@@ -481,3 +481,15 @@ p span {
   text-align: left;
   border: none;
 }
+
+/* FOOTER */
+
+footer {
+  color: var(--color-text-secondary);
+  margin: var(--space-3);
+  padding: var(--space-3);
+}
+footer p {
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
