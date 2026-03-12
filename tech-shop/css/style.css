@@ -573,7 +573,6 @@ footer p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin-bottom: var(--space-6);
 }
 
@@ -617,9 +616,17 @@ footer p {
   .footer-menu {
     display: block;
   }
+
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
 }
 
 /* DESKTOP 1024px */
 
 @media (min-width: 1024px) {
+  .catalog-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
