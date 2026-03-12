@@ -600,3 +600,26 @@ footer p {
   font-size: 20px;
   width: 25px;
 }
+
+.footer-menu {
+  display: none;
+  text-align: center;
+  padding: var(--space-2);
+  margin: var(--space-3) 0;
+}
+
+/* TABLET 768px */
+
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .footer-menu {
+    display: block;
+  }
+}
+
+/* DESKTOP 1024px */
+
+@media (min-width: 1024px) {
+}

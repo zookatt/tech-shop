@@ -111,10 +111,18 @@
       </main>
 
       <footer>
-        <p>© 2026 Botiga Tech</p>
+        <ul class="footer-menu">
+          <li>Inicio</li>
+          <li>Encuentra tu tienda</li>
+          <li>Franquicias</li>
+          <li>Trabaja con nosotros</li>
+          <li>FAQ</li>
+        </ul>
 
         <p>Métodos de pago aceptados:</p>
-        <ul class="flex justify-between gap-2 py-space-3">
+        <ul
+          class="flex justify-between md:justify-evenly lg:justify-center gap-2 py-space-3"
+        >
           <li>
             <img
               class="payCard"
@@ -144,30 +152,32 @@
             />
           </li>
         </ul>
+        <p>© 2026 Botiga Tech</p>
       </footer>
+
+      <!-- MENU HAMBURGUER MOVIL -->
+      <div class="overlay"></div>
+
+      <div class="menu-hamburguer">
+        <header class="menu-header">
+          <h2>Menú</h2>
+          <img
+            src="./img/otros/cerrar.png"
+            alt="Icono cerrar menu movil"
+            class="close-menu"
+          />
+        </header>
+
+        <ul>
+          <li>Inicio</li>
+          <li>Encuentra tu tienda</li>
+          <li>Franquicias</li>
+          <li>Trabaja con nosotros</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
     </div>
 
-    <!-- MENU HAMBURGUER MOVIL -->
-    <div class="overlay"></div>
-
-    <div class="menu-hamburguer">
-      <header class="menu-header">
-        <h2>Menú</h2>
-        <img
-          src="./img/otros/cerrar.png"
-          alt="Icono cerrar menu movil"
-          class="close-menu"
-        />
-      </header>
-
-      <ul>
-        <li>Inicio</li>
-        <li>Encuentra tu tienda</li>
-        <li>Franquicias</li>
-        <li>Trabaja con nosotros</li>
-        <li>FAQ</li>
-      </ul>
-    </div>
     <script src="./js/script.js"></script>
   </body>
 </html>
