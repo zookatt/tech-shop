@@ -92,13 +92,12 @@ textarea {
 
   --header-height: 64px;
 }
-.container-mobile {
+
+.container {
   padding: var(--container-padding-mobile);
+  margin: auto;
 }
 
-.container-desktop {
-  padding: var(--container-padding-desktop);
-}
 /* PADDING HORIZONTAL */
 .px-space-1 {
   padding-left: var(--space-1);
@@ -617,6 +616,9 @@ footer p {
 /* TABLET 768px */
 
 @media (min-width: 768px) {
+  .container {
+    padding: var(--container-padding-desktop);
+  }
   .logo {
     width: 25%;
   }
