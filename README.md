@@ -1,7 +1,7 @@
 # Tech Shop — Modernización de una tienda online
 
 This project is a modernization of an old computer hardware online store originally written around 2010.
-The goal was to rebuild the entire catalog page from scratch using modern HTML5 semantic structure and responsive CSS, replacing outdated techniques like absolute positioning, fixed layouts, and non-standard CSS.
+The goal was to rebuild the entire catalog page from scratch using modern HTML5 semantic structure and responsive CSS, replacing outdated techniques like absolute positioning, fixed layouts, and non-standard CSS and Tailwind.
 
 The focus of the exercise is clean layout, accessibility, responsive design and semantic markup, not JavaScript functionality.
 
@@ -10,7 +10,6 @@ The focus of the exercise is clean layout, accessibility, responsive design and 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -52,13 +51,9 @@ The page includes:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![Mobile](./design/movil_.png)
+![Tablet](./design/tablet_.png)
+![Desktop](./design/desktop_.png)
 
 ## My process
 
@@ -66,6 +61,7 @@ The page includes:
 
 - Semantic HTML5
 - CSS Custom Properties (variables at :root)
+- Tailwind Css
 - CSS Grid for the product catalog
 - Flexbox for component alignment
 - Mobile-first workflow
