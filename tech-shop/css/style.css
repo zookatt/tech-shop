@@ -625,6 +625,7 @@ footer p {
   .menu {
     display: none;
   }
+
   .footer-menu {
     display: block;
   }
@@ -640,6 +641,9 @@ footer p {
 @media (min-width: 1024px) {
   .logo {
     width: 20%;
+  }
+  #searchBar {
+    width: 50%;
   }
   .catalog-grid {
     grid-template-columns: repeat(3, 1fr);
