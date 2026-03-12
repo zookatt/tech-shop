@@ -15,7 +15,15 @@ const showData = (data) => {
         : data.products[i].stockStatus === "low"
           ? "badge-low"
           : "badge-out";
+    data.products[i].stockStatus === "out" ? "badge-out" : "badge-low";
 
+    // Determinar si el botón debe estar deshabilitado
+    const disabledAttr =
+      data.products[i].stockStatus === "out" ? "disabled" : "";
+    const addToCartClass =
+      data.products[i].stockStatus === "out"
+        ? "addToCart disabled"
+        : "addToCart";
     card += `<article class="product-card">
             <figure>
               <img
@@ -31,7 +39,7 @@ const showData = (data) => {
               <span class="badge ${badgeClass}">${data.products[i].stockText}</span>
             </p>
 
-            <button class ="addToCart" data-index="${i}">Añadir al carrito</button>
+            <button class="${addToCartClass}" ${disabledAttr} data-index="${i}">Añadir al carrito</button>
           </article>
 `;
   }

@@ -45,8 +45,8 @@
       "name": "Bolso portátil",
       "price": 11,
       "currency": "EUR",
-      "stockStatus": "in",
-      "stockText": "En stock",
+      "stockStatus": "out",
+      "stockText": "Agotado",
       "image": "img/productos/bolso.jpg",
       "alt": "Bolso para transportar ordenador portátil"
     },
