@@ -7,7 +7,7 @@
       "currency": "EUR",
       "stockStatus": "in",
       "stockText": "En stock",
-      "image": "img/productos/antivirus-small.jpg",
+      "image": "img/productos/antivirus.jpg",
       "alt": "Caja de software antivirus para ordenador"
     },
     {
@@ -17,7 +17,7 @@
       "currency": "EUR",
       "stockStatus": "low",
       "stockText": "Pocas unidades",
-      "image": "img/productos/grafica-small.jpg",
+      "image": "img/productos/grafica.jpg",
       "alt": "Tarjeta gráfica para ordenador de sobremesa"
     },
     {
@@ -27,7 +27,7 @@
       "currency": "EUR",
       "stockStatus": "in",
       "stockText": "En stock",
-      "image": "img/productos/disco-small.jpg",
+      "image": "img/productos/disco.jpg",
       "alt": "Disco duro interno para ordenador"
     },
     {
@@ -37,7 +37,7 @@
       "currency": "EUR",
       "stockStatus": "in",
       "stockText": "En stock",
-      "image": "img/productos/ordenador-small.jpg",
+      "image": "img/productos/ordenador.jpg",
       "alt": "Ordenador de sobremesa completo"
     },
     {
@@ -47,7 +47,7 @@
       "currency": "EUR",
       "stockStatus": "in",
       "stockText": "En stock",
-      "image": "img/productos/bolso-small.jpg",
+      "image": "img/productos/bolso.jpg",
       "alt": "Bolso para transportar ordenador portátil"
     },
     {
@@ -57,7 +57,7 @@
       "currency": "EUR",
       "stockStatus": "in",
       "stockText": "En stock",
-      "image": "img/productos/portatil-small.jpg",
+      "image": "img/productos/portatil.jpg",
       "alt": "Ordenador portátil abierto sobre una mesa"
     },
     {
@@ -67,7 +67,7 @@
       "currency": "EUR",
       "stockStatus": "in",
       "stockText": "En stock",
-      "image": "img/productos/ram-small.jpg",
+      "image": "img/productos/ram.jpg",
       "alt": "Módulos de memoria RAM para ordenador"
     },
     {
@@ -77,7 +77,7 @@
       "currency": "EUR",
       "stockStatus": "low",
       "stockText": "Pocas unidades",
-      "image": "img/productos/router-small.jpg",
+      "image": "img/productos/router.jpg",
       "alt": "Router wifi para red doméstica"
     },
     {
@@ -87,7 +87,7 @@
       "currency": "EUR",
       "stockStatus": "low",
       "stockText": "Pocas unidades",
-      "image": "img/productos/tv-small.jpg",
+      "image": "img/productos/tv.jpg",
       "alt": "Tarjeta sintonizadora de televisión para ordenador"
     }
   ]
