@@ -274,6 +274,9 @@ textarea {
   object-fit: cover;
   width: 50%;
 }
+.iconCart {
+  width: 25px;
+}
 .icon {
   width: 25px;
 }
