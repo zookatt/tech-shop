@@ -10,14 +10,9 @@ The focus of the exercise is clean layout, accessibility, responsive design and 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -46,7 +41,7 @@ The page includes:
 
 - Site header and navigation
 - Product catalog
-- Shopping cart table (static HTML)
+- Shopping cart table (dynamic JS)
 - Footer with credits and payment icons
 
 ### Screenshot
@@ -54,6 +49,10 @@ The page includes:
 ![Mobile](./design/movil_.png)
 ![Tablet](./design/tablet_.png)
 ![Desktop](./design/desktop_.png)
+
+### Link
+
+**DEMO:** https://zookatt.github.io/tech-shop/
 
 ## My process
 
@@ -67,16 +66,3 @@ The page includes:
 - Mobile-first workflow
 - Responsive design with min-width media queries
 - Google Fonts — Inter
-
-
-### What I learned
-
-### Continued development
-
-### Useful resources
-
-### AI Collaboration
-
-## Author
-
-## Acknowledgments
