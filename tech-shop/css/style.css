@@ -606,6 +606,11 @@ footer p {
   margin: var(--space-3) 0;
 }
 
+#cart {
+  display: none;
+}
+
+/* PANTALLAS 470px - 768px */
 @media (min-width: 470px) and (max-width: 760px) {
   .cart-count {
     top: 10px;
@@ -625,10 +630,10 @@ footer p {
   .menu {
     display: none;
   }
- header h1 {
+  header h1 {
     font-size: var(--font-size-2xl);
   }
-  header p{
+  header p {
     text-align: center;
   }
 
