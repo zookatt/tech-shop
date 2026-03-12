@@ -50,3 +50,21 @@ const showData = (data) => {
     });
   });
 };
+
+const menuButton = document.querySelector(".menu");
+const menu = document.querySelector(".menu-hamburguer");
+const overlay = document.querySelector(".overlay");
+const closeMenu = document.querySelector(".close-menu");
+
+menuButton.addEventListener("click", () => {
+  menu.classList.add("open");
+  overlay.classList.add("open");
+});
+
+closeMenu.addEventListener("click", closeSideMenu);
+overlay.addEventListener("click", closeSideMenu);
+
+function closeSideMenu() {
+  menu.classList.remove("open");
+  overlay.classList.remove("open");
+}

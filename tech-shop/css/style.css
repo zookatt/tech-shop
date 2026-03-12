@@ -271,6 +271,10 @@ textarea {
 .icon {
   width: 25px;
 }
+
+.menu {
+  width: 25px;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -524,4 +528,75 @@ footer {
 footer p {
   text-align: center;
   font-size: var(--font-size-sm);
+}
+
+/* MENU HAMBURGER */
+
+/* OVERLAY OSCURO */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 90;
+}
+
+/* MENU LATERAL */
+.menu-hamburguer {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+
+  padding: var(--space-6);
+  box-shadow: var(--shadow-lg);
+
+  transition: left 0.6s ease;
+  z-index: 100;
+}
+
+/* CUANDO SE ABRE */
+.menu-hamburguer.open {
+  left: 0;
+}
+
+.overlay.open {
+  display: block;
+}
+
+/* HEADER MENU */
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: var(--space-6);
+}
+
+/* LISTA */
+.menu-hamburguer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* ITEMS */
+.menu-hamburguer li {
+  cursor: pointer;
+}
+
+.menu-hamburguer li:hover {
+  color: var(--color-primary);
+}
+
+/* BOTON CERRAR */
+.close-menu {
+  cursor: pointer;
+  font-size: 20px;
+  width: 25px;
 }
